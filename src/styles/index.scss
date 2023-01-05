@@ -1,0 +1,8 @@
+//Here you can customize bootstrap
+$primary: #663399;
+@import "~bootstrap/scss/bootstrap";
+
+.borderImage {
+  border-top: 10px solid rgb(189, 207, 220);
+  border-bottom: 10px solid rgb(189, 207, 220);
+}

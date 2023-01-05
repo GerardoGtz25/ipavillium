@@ -14,6 +14,7 @@ module.exports = {
       },
     },
     `gatsby-transformer-sharp`,
+    `gatsby-plugin-styled-components`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-sass`,
@@ -33,6 +34,16 @@ module.exports = {
         theme_color: `#663399`,
         display: `standalone`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Raleway`,
+          `source sans pro\:300,400,400i,700`, // you can also specify font weights and styles
+        ],
+        display: "swap",
       },
     },
     `gatsby-plugin-gatsby-cloud`,

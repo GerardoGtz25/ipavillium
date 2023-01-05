@@ -6,20 +6,26 @@
   "author": "Richard Raduly <richard@raduly.fr>",
   "dependencies": {
     "@popperjs/core": "^2.11.6",
+    "@react-icons/all-files": "^4.1.0",
+    "animate.css": "^4.1.1",
+    "babel-plugin-styled-components": "^2.0.7",
     "bootstrap": "^5.2.2",
     "gatsby": "^5.1.0",
     "gatsby-plugin-gatsby-cloud": "^5.1.0",
+    "gatsby-plugin-google-fonts": "^1.0.1",
     "gatsby-plugin-image": "^3.1.0",
     "gatsby-plugin-manifest": "^5.1.0",
     "gatsby-plugin-offline": "^6.1.0",
     "gatsby-plugin-sass": "^6.1.0",
     "gatsby-plugin-sharp": "^5.1.0",
+    "gatsby-plugin-styled-components": "^6.3.0",
     "gatsby-source-filesystem": "^5.1.0",
     "gatsby-transformer-sharp": "^5.1.0",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.0.0",
-    "sass": "1.49.11"
+    "sass": "1.49.11",
+    "styled-components": "^5.3.6"
   },
   "devDependencies": {
     "prettier": "2.5.1"
