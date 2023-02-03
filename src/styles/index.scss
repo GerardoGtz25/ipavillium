@@ -1,6 +1,10 @@
 //Here you can customize bootstrap
-$primary: #663399;
+$primary: #3d5495;
 @import "~bootstrap/scss/bootstrap";
+
+body {
+  font-family: raleway-semibold, raleway, sans-serif;
+}
 
 .borderImage {
   border-top: 10px solid rgb(189, 207, 220);
